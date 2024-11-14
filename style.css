@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+
+.st-emotion-cache-12fmjuu.ezrtsby2{
+    display: none;
+    background-color: black;
+    color: black;
+}
+.main{
+    background-color: black;
+}
+.st-emotion-cache-1r4qj8v{
+    background-color: black;
+}
+
+#bem-vindo-ao,
+#detector-de-filtros,
+#de-redes-sociais {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    padding: 0px 0px 0px;
+    margin: 0;
+    margin-left: -30%;
+    margin-top: 10%;
+}
+
+#detector-de-filtros {
+    margin-top: 10px;
+}
+
+#de-redes-sociais {
+    margin-top: 10px;
+}
+
+div.stButton button:first-of-type{
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(253, 135, 185, 1);
+    color: white;
+    padding: 15px 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+    width: 300px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Adiciona transição suave */
+}
+
+div.stButton button:first-of-type:hover {
+    background-color:rgba(253, 135, 185, 1); /* Muda a cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o botão */
+}
+
+
+/* Estilo do segundo botão (Iniciar) */
+div.stButton button:nth-of-type(2) {
+    background-color: rgba(100, 150, 250, 1); /* Cor diferente */
+    color: white;
+    padding: 12px 50px;
+    font-size: 28px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 400px; /* Largura personalizada */
+}
+
+p{
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+}
+
+@media (max-width: 576px) {
+    .st-emotion-cache-1on073z.e1b2p2ww15 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Media Queries para telas menores (smartphones) */
+@media only screen and (max-width: 600px) {
+    #bem-vindo-ao,
+    #detector-de-filtros,
+    #de-redes-sociais {
+        font-size: 24px;
+        margin-left: 0%;  /* Centraliza o texto */
+        text-align: center;
+    }
+    .st-emotion-cache-phe2gf{
+         .logo-img {
+            width: 200px;
+            margin-left: 0;   /*Centraliza a imagem */
+            text-align: center;
+        }
+    }
+}
+
+/* Media Queries para telas médias (tablets) */
+@media only screen and (max-width: 768px) {
+    #bem-vindo-ao,
+    #detector-de-filtros,
+    #de-redes-sociais {
+        font-size: 28px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .stImageContainer{
+        text-align: center;
+    }
+
+    .st-emotion-cache-phe2gf{
+        .logo-img {
+            width: 250px;
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+}
+
+#a02a7351{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10%;
+    margin-left: auto;
+}
+
+h3{
+    color: white;
+    text-align: justify;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    color: white;
+    text-align: justify;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#file-uploader {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: white;
+    text-align: justify;
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text-detector{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: white;
+    text-align: justify;
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.resultado-filtro {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Pode mudar a cor conforme necessário */
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo para a imagem da página principal (logo) */
+.logo-img {
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin-left: -30%;
+    pointer-events: none; 
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: none;
+    outline: none;
+    text-align: center;
+}
+
+/* Estilo para a imagem de upload na página do detector */
+.uploaded-img {
+    width: 300px; /* Ajuste o tamanho desejado */
+    margin: 0 auto;
+    display: block;
+    border-radius: 0;
+}
+
+
